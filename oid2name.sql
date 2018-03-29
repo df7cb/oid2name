@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2014, PostgreSQL Global Development Group
+ * License: PostgreSQL License
+ * Author: Christoph Berg
+ */
+
 CREATE OR REPLACE FUNCTION oid2name(oid INOUT oid, class OUT name, schema OUT name, name OUT name)
 RETURNS SETOF record
 LANGUAGE plpgsql
